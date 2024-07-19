@@ -1,0 +1,22 @@
+{
+  "name": "vue2-jsx-biome-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@rsbuild/core": "1.0.1-beta.3",
+    "@rsbuild/plugin-babel": "1.0.1-beta.3",
+    "@rsbuild/plugin-vue2": "1.0.1-beta.3",
+    "@rsbuild/plugin-vue2-jsx": "1.0.1-beta.3"
+  }
+}
